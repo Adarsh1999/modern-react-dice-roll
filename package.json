@@ -1,0 +1,50 @@
+{
+  "name": "modern-react-dice-roll",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A highly customizable dice roll package built in react.",
+  "scripts": {
+    "build": "rimraf dist && rollup -c",
+    "start": "rollup -c -w",
+    "prepublish": "npm run build",
+    "tsc": "tsc --emitDeclarationOnly"
+  },
+  "keywords": [
+    "dice",
+    "roll",
+    "react",
+    "modern"
+  ],
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Adarsh1999/modern-react-dice-roll"
+  },
+  "homepage": "https://github.com/Adarsh1999",
+  "bugs": {
+    "url": ""
+  },
+  "author": "Adarsh Gupta",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "react": ">=17.0.0 || ^18.0.0",
+    "react-dom": ">=17.0.0 || ^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.30",
+    "@types/react-dom": "^18.0.11",
+    "rollup": "^3.29.0",
+    "rollup-plugin-bundle-size": "^1.0.3",
+    "rollup-plugin-cleanup": "^3.2.1",
+    "rollup-plugin-sass": "^1.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "typescript": "^5.2.2",
+    "rimraf": "^5.0.0"
+  }
+}

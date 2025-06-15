@@ -3,7 +3,7 @@
 [![npm version](https://img.shields.io/npm/v/modern-react-dice-roll.svg?style=flat-square)](https://www.npmjs.com/package/modern-react-dice-roll)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
-A fully modernized and customizable dice roll component for React, forked from the original [react-dice-roll](https://github.com/avaneeshtripathi/react-dice-roll) by Avaneesh Tripathi.
+A fully modernized and customizable dice roll component for React, forked from the original [react-dice-roll](https://github.com/avaneeshtripathi/react-dice-roll).
 
 This version has been completely reworked to support modern React (v17/18+), TypeScript, and current JavaScript tooling, eliminating the need for `--legacy-peer-deps`.
 
